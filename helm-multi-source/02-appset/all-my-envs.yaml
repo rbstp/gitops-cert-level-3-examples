@@ -13,6 +13,14 @@ spec:
             region: us
             type: non-prod
             version: qa
+          - env: integration-gpu
+            region: us
+            type: non-prod
+            version: qa
+          - env: integration-non-gpu
+            region: us
+            type: non-prod
+            version: qa
           - env: staging-asia
             region: asia
             type: non-prod
